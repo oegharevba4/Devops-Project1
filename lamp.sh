@@ -25,8 +25,9 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY <password
 sudo mysql_secure_installation
 
 #connect to mysql console
-sudo mysql -p
-exit
+#edit out below commands to connect to mysql server
+# sudo mysql -p
+# exit
 
 #PHP
 #install PHP server, libapache-mod-php and php-mysql
